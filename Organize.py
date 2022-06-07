@@ -24,7 +24,7 @@ def pickDir(value):
                 return category
     return 'MISC'  ## The function returns 'MISC' for the suffixes that weren't defined in the dictionary
 
-## This function does the work of organizing files into seperate folders based on their type
+## This function does the work of organizing files into separate folders based on their type
 
 def organizeDir():
     for item in os.scandir():
